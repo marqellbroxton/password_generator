@@ -1,28 +1,28 @@
 import random
 
-uppercase_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-lowercase_letters = uppercase_letters.lower()
-digits = "0123456789"
-symbols = "()[]{};:.-_/\\?+*#$%^&@!"
+ucLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+lcLetters = ucLetters.lower()
+numbers = "0123456789"
+special_characters = "()[]{};:.-_/\\?+*#$%^&@!"
 
 upper, lower, nums, syms = True, True, True, True
 
-all = ""
+field = ""
 
 if upper:
-    all += uppercase_letters
+    field += ucLetters
 if lower:
-    all += lowercase_letters
+    field += lcLetters
 if nums:
-    all += digits
+    field += numbers
 if syms:
-    all += symbols
+    field += special_characters
 
-length = 12
-amount = 5
+pw_length = 12
+display = 5
 
-for x in range(amount):
-    password = "".join(random.sample(all, length))
+for x in range(display):
+    password = "".join(random.sample(field, pw_length))
     print(password)
 
 
