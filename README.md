@@ -11,7 +11,7 @@ Welcome to my GitHub project! This repository houses a simple yet effective rand
 
 ### How to Use
 
-1. Clone the repository or download the `random_password_generator.py` file.
+1. Clone the repository or download the `password_generator.py` file.
 2. Open the file in your preferred Python environment.
 3. Modify the variables `upper`, `lower`, `nums`, and `syms` to control the character sets included in the passwords.
 4. Adjust the `pw_length` variable to set the desired length of the passwords.
