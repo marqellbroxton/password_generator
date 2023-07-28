@@ -1,4 +1,5 @@
 Password Generator
+
 Welcome to my GitHub project! This repository houses a simple yet effective random password generator written in Python. The purpose of this project is to provide users with a secure and customizable tool to generate strong passwords for their various online accounts, ensuring enhanced security.
 
 Features
